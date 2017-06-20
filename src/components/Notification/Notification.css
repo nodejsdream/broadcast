@@ -1,0 +1,35 @@
+#notificationmenu{
+  background-color: transparent;
+  border: none;
+  padding-top: 0px;
+  height: 25px;
+  margin: 0px 10px 0px 0px;
+  float: right;
+}
+
+.img-circle {
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+
+.img-detail {
+    position: relative;
+    margin-right: 10px;
+}
+
+.dropdown-item.dropdown-notification {
+    display: inline-flex;
+    width: 400px;
+    white-space: initial;
+}
+
+.dropdown-description  {
+    width: 300px;
+    word-wrap: break-word;
+    height: 100%;
+}
+
+.dropdown-menu hr {
+    width: 75%;
+}

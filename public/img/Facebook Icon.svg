@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="login" transform="translate(-526.000000, -359.000000)">
+            <g id="rancor" transform="translate(212.000000, 100.000000)">
+                <g id="Facebook-Icon" transform="translate(315.000000, 260.000000)">
+                    <path d="M15.785549,23 L15.785549,15.0003428 L18.6478529,15.0003428 L19,12.181452 L15.785549,12.181452 L15.785549,10.4291592 C15.785549,9.80586269 16.0763692,9.75134996 16.428902,9.75134996 L18.95063,9.75134996 L18.95063,7.00925688 L15.9703008,7 C12.6644382,7 12.0766264,9.04508443 12.0766264,10.3533899 L12.0766264,12.181452 L10,12.181452 L10,15.0003428 L12.0766264,15.0003428 L12.0766264,23 L15.785549,23 Z" id="Fill-4" fill="#385698"></path>
+                    <circle id="Oval-Copy" stroke="#385698" cx="15" cy="15" r="15"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

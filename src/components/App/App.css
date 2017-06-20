@@ -1,0 +1,323 @@
+body {
+  background: #f8f8f8 !important;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+}
+
+#topbar {
+  height: 50px;
+  background: #fff;
+  padding: 10px;
+  overflow: visible;
+  width: 100%;
+  text-align: center;
+}
+
+#logo {
+  float: left;
+}
+
+#search {
+  display: inline;
+  margin: 0 auto;
+  width: 200px;
+}
+#search input {
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #bababa;
+  border-radius: 6px;
+  height: 28px;
+}
+#dropdownMenuButton {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#dropdownMenuButton::after {
+  display: inline-block;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+.dropdown{
+  width: 24px;
+  height: 23px;
+}
+
+.dropdown > a .caret {
+  display: none;
+}
+
+#profile{
+  background-color: transparent;
+  border: none;
+  padding-top: 0px;
+  height: 25px;
+  margin: 0px;
+  float: right;
+  display: inline-flex;
+}
+
+#notificationmenu{
+  background-color: transparent;
+  border: none;
+  padding-top: 0px;
+  height: 25px;
+  margin: 0px 10px 0px 0px;
+  float: right;
+}
+#profilemenu{
+  background-color: transparent;
+  border: none;
+  padding-top: 0px;
+  height: 25px;
+  margin: 0px;
+  float: right;
+}
+
+#header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  z-index: 9999;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+}
+
+.container {
+    padding-top: 50px;
+}
+
+li a {
+  display: block;
+  color: #434343;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  text-decoration: underline;
+  color: #bababa;
+}
+
+li img {
+  position: fixed;
+}
+
+.signup-container {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 7%;
+  text-align: center;
+}
+
+.float-right {
+  width: 34%;
+  height: 516px;
+  float: right;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+
+.check {
+  width: auto;
+  float: left;
+  margin-top: 13px;
+}
+
+.inblock {
+  display: inline-block;
+  position: relative;
+}
+
+#tailor-text {
+  float: right;
+  text-align: left;
+  font-size: 12px;
+  width: 360px;
+}
+
+
+
+.small-print {
+  display: inline;
+  font-size: 12px;
+  color: #8899a6;
+}
+
+.blue-link {
+  color: #1b95e0;
+}
+
+.textblock {
+  display: block;
+}
+
+
+.pull-right{
+  float: right;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  color: white;
+  padding: 80px 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.nav-container {
+  background-color: white;
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+
+.nav-list {
+  margin: 0;
+  text-align: center;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 20px 50px;
+  border-right: 1px solid lightgrey;
+  margin: auto -2px;
+}
+
+.nav-list li:first-child {
+  border-left: 1px solid lightgrey;
+}
+
+.nav-list li:hover {
+  border-bottom: 2px solid #359965;
+}
+
+.card-row {
+  display: block;
+  width: 1200px;
+  height: 340px;
+  padding: 10px;
+}
+
+.card{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.card-info {
+
+}
+
+.card-signup {
+  background-color: #1da1f2;
+  width: 275px;
+  height: 420px;
+  padding: 15px;
+  text-align: center;
+}
+
+.sign-up-text {
+  width: 240px;
+  height: 218px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.sign-up-header {
+  display: block;
+  width: 245px;
+  height: 26px;
+}
+
+.sign-up-header h2 {
+  width: 245px;
+  height: 26px;
+  margin-top: 70px;
+  margin-bottom: 14px;
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.sign-up-text p {
+  width: 245px;
+  height: 36px;
+  margin: 0;
+}
+
+.onboarding-input {
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  color: #9ba9b5;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.onboarding-container {
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
+.onboarding-button {
+  color: white;
+  border: 1px solid #9ba9b5;
+  padding: 15px 70px;
+  margin: 30px 0px 40px 0px;
+  background-color: black; /*Like in mock*/
+  transition: all .2s;
+}
+
+.onboarding-button:hover {
+
+}
+
+.onboarding-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 21px;
+}

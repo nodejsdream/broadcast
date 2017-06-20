@@ -1,0 +1,10 @@
+#loginAlert {
+  display: none;
+}
+
+.onboarding-input {
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 75%;
+  border-radius: 0px;
+}
