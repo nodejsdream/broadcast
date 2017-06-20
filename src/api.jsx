@@ -23,7 +23,7 @@ router.post('/login', function(req, response) {
              'password': param.password,
              'grant_type': 'password',
              'client_id': 'dust-web-client',
-             'client_secret': 'falk3jl5gg2v03sv0xbfnK3w4ae5txv'
+             'client_secret': 'password'
            }
          },
         function(err, answer, body) {
@@ -61,13 +61,10 @@ router.post('/login', function(req, response) {
 
 router.get('/logout', function(req, res) {
     req.session.logined = false;
-    //res.redirect(302, '/login')
     return res.status(200).send({ url: '/login' })
 });
 
 router.post('/a', function(req, res) {
-  //setTimeout(function() {
-
     console.log(req.query);
     console.log(req.body);
     if (req.body.userName == "XXX") {
@@ -82,7 +79,6 @@ router.post('/a', function(req, res) {
       return res.status(401).send({ error: 'Something failed!' })
     }
 
-  //}, 3000);
 });
 
 router.post('/signup', function(req, response) {
@@ -103,13 +99,12 @@ router.post('/signup', function(req, response) {
            'fullName': param.fullName,
            'displayName': param.displayName,
            'client_id': 'dust-web-client',
-           'client_secret': 'falk3jl5gg2v03sv0xbfnK3w4ae5txv'
+           'client_secret': 'password'
          }
        },
       function(err, answer, body) {
           try{
             var post = JSON.parse(body);
-            // console.log('post',post);
             if (!post.result){
               if (!!post.error && !!post.error.localizedMessage) {
                 return response.status(401).send({ error: post.error.localizedMessage })
@@ -117,8 +112,6 @@ router.post('/signup', function(req, response) {
                 return response.status(401).send({ error: 'Something failed!' })
               }
             } else {
-              // console.log('post.result.clientAccount');
-              //console.log(post.result.clientAccount);
               req.session.logined = true;
               req.session.user = post.result.clientAccount;
               req.session.started = Date.now();
